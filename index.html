@@ -92,14 +92,25 @@
     </section>
 
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: ofemyofe@gmail.com</p>
-        <p>LinkedIn: <a href="#">Insert your profile link</a></p>
-        <p>Instagram: <a href="#">@imbullishonyou</a> (optional)</p>
-    </section>
-
-    <footer>
-        &copy; 2025 I'M BULLISH ON YOU. All rights reserved.
-    </footer>
-</body>
-</html>
+  <h2>Contact Me</h2>
+  <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Your Name:<br>
+        <input type="text" name="name" required>
+      </label>
+    </p>
+    <p>
+      <label>Your Email:<br>
+        <input type="email" name="email" required>
+      </label>
+    </p>
+    <p>
+      <label>Your Message:<br>
+        <textarea name="message" required></textarea>
+      </label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+</section>
